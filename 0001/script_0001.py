@@ -20,7 +20,7 @@ class CouponGenerator(object):
         self.encoded_code_gene()
         self.save_coupon()
 
-    # Generate raw codes, and save them in self.raw_code set.
+    # Generate raw codes, and save them in self.raw_code list.
     def raw_code_gene(self):
         magnitude = len(str(self.item_num))
         for count in range(self.item_num):
