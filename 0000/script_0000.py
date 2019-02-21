@@ -31,7 +31,7 @@ num = math.floor(10*random.random())
 image_text = ImageDraw.Draw(image)
 image_text.text((math.floor(image.size[0]*0.75),
                  math.floor(image.size[1])*0.06),
-                str(num), font=text_font, fill=(255,0,0))
+                str(num), font=text_font, fill=(255, 0, 0))
 
 # Save the image with text on it
 image.save(os.path.join(file_dir, 'img_text.jpg'))
